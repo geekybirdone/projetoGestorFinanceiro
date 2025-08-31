@@ -8,26 +8,81 @@
 <body>
     <header>
         <h1>Projeto de Gestor Financeiro</h1>
-
     </header>
     <main>
         <section name="revenue">
 
             <h2>Digite aqui suas Receitas:</h2>
 
+            <label for="revenue">Receita: </label>
+            <input type="text" name="revenue" id="revenue">
+
+            <labe for="revenueValue">Valor: </labe>
+            <input type="number" name="revenueValue" id="revenueValue">
+
+            <input type="button" value="Enviar" onclick="takeRevenue()">
+
         </section>
 
         <section name="expense">
+
             <h2>Digite aqui suas Despesas:</h2>
+
+            <label for="expense">Despesa: </label>
+            <input type="text" name="expense" id="expense">
+
+            <label for="expenseValue">Valor: </label>
+            <input type="number" name="expenseValue" id="expenseValue">
+
+            <input type="button" value="Enviar">
+
+        </section>
+
+        <section name="revenues">
+
+            <h2>Receitas:</h2>
+
+            <ul id="revenueShow">
+
+            </ul>
+
+            <ul id="revenueSum">
+
+                <li id="revenueTotal"></li>
+
+            </ul>
+
+        </section>
+
+        <section name="expenses">
+
+            <h2>Despesas:</h2>
+
+            <ul id="expenseShow">
+
+            </ul>
+
+            <ul id="expenseSum">
+
+                <li id="expenseTotal"></li>
+
+            </ul>
 
         </section>
 
         <section name="balance">
+
             <h2>Saldo:</h2>
+
+            <ul id="balanceShow">
+
+            </ul>
         </section>
+
     </main>
     <footer>
         <p>Designed with ❤️ by Alan Leandro Domingos</p>
     </footer>
+<script src="/src/model/model.mjs"></script>
 </body>
 </html>
