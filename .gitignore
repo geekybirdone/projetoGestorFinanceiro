@@ -1,2 +1,4 @@
-/src/model
-/src/controller
+src/model/**
+!src/model
+!src/model/modelAlerts.mjs
+src/controller/**
