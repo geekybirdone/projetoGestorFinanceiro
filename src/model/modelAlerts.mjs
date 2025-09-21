@@ -107,7 +107,7 @@ function calculateBalance(){
     let balance = sumRevenue() - sumExpense()
     return alert('Total de receitas: '
                 + moneyFormatter(sumRevenue()) + '\n'
-                +'Soma de despesas: ' 
+                +'Total de despesas: ' 
                 +moneyFormatter(sumExpense()) + '\n'
                 +'Saldo: ' 
                 + moneyFormatter(balance))
