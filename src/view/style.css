@@ -1,0 +1,121 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(247, 241, 238);
+}
+
+main{
+    text-align: center;
+}
+
+header{
+    background-color: #050049;
+    color: #d3d0d0;
+    padding: 2rem 0;
+}
+
+input[type="text"], input[type="number"]{
+    border: 0.10rem transparent;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.25rem rgba(10, 10, 10, 0.15);
+    padding: 0.15rem;
+}
+
+input[type="button"]{
+    background-color: #050049;
+    border: 0.5rem transparent;
+    border-radius: 0.25rem;
+    color: #ebe1e1;
+    font-weight: 700;
+    padding: 0.30rem;
+}
+
+.container{
+    align-items: stretch;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: left;
+    margin: 0.5rem auto;
+    width: 97vw;
+}
+
+.section{
+    align-items: stretch;
+    background-color: #dee6f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(10, 10, 10, 0.25);
+    flex: 1;
+    justify-content: left;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    padding-bottom: 2.5rem;
+    width: 40vw;
+}
+
+.balance{
+    align-items: stretch;
+    background-color: #dee6f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(10, 10, 10, 0.25);
+    flex: 1;
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
+    width: 93vw;
+}
+
+.input{
+    margin-top: 2rem;
+    height: max-content;
+}
+
+h1{
+    padding-left: 1.5rem;
+}
+
+h2{
+    margin: 1rem 0;
+}
+
+ul{
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+}
+
+li{
+    /* background-color: #90df90; */
+    border-radius: 0.25rem;
+    color: #0a6c0a;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0.5rem auto;
+    padding: 1rem;
+}
+
+.revenuesTotal{
+    background-color: #b8ecb8;
+}
+
+.expShow{
+    color: red;
+}
+
+.expensesTotal{
+    color: red;
+    background-color: #ecc3b8;
+}
+
+#revenueTotal, #expenseTotal{
+    font-weight: 700;
+}
+
+footer{
+    background-color: #050049;
+    color: #b4afaf;
+    text-align: center;
+    padding: 1.5rem;
+}
